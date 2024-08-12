@@ -9,7 +9,7 @@ namespace Actividad1.Models
     internal class Amasador
     {
         public Amasador() { }   
-        public double crearMasa (double harina)
+        public double Amasar (double harina)
         {
             double masa = harina * 1.3;
             return masa;
